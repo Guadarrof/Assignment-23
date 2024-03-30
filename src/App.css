@@ -1,0 +1,70 @@
+
+.app-title{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 0;
+    color: rgba(42, 94, 94, 0.778);
+}
+
+.input_group{
+    display: flex;
+    flex-direction: column;
+}
+
+.body{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    background-color: rgba(243, 243, 243, 0.643);
+    padding: 1rem;
+    border-radius: 9px/9px;
+}
+
+.bnt-save{
+    margin-top: 20px;
+    border: none;
+    align-self: center;
+    padding: 0.5rem 2.5rem;
+    text-align: center;
+    background-color: rgb(40, 87, 87);
+    border-radius: 9px/9px;
+    color: white;
+    font-weight: 600;
+}
+
+
+.bnt-delete{
+    border: none;
+    color: rgb(157, 12, 12);
+    border-radius: 3px;
+    font-weight: 900;
+    background-color: rgba(255, 255, 255, 0.914);
+}
+
+.task-list{
+    margin: 10%;
+    background-color: rgba(40, 87, 87, 0.263);
+    padding: 5% 10%;
+    border-radius: 9px/9px;
+}
+
+.p-error{
+    margin-top: 2px;
+    color: rgb(157, 12, 12);
+    background-color: rgba(165, 42, 42, 0.148);
+}
+
+.list-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    border-bottom: 2px solid rgba(40, 87, 87, 0.331);
+    padding-bottom: 10px;
+}
+
+li{
+    font-weight: 600;
+}
